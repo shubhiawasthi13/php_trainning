@@ -49,7 +49,7 @@ foreach($users as $user){
 }
 
 
-// Multidemsional Associative Array
+Multidemsional Associative Array
 echo "<br>";
 $users = [
     [
@@ -71,7 +71,7 @@ foreach($users as $user){
 
 }
 
-// add Remove and element in array
+add Remove and element in array
 echo "<br>";
 $users = ["anil","rajat","Priya","Karan"];
 array_push($users,"radha","kriti"); //add value in last
@@ -90,4 +90,5 @@ array_splice($users,-3); // remove multiple values
 foreach($users as $user){
     echo $user,"<br>";
 }
+
 ?>
