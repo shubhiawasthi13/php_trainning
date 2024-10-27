@@ -49,7 +49,7 @@ foreach($users as $user){
 }
 
 
-Multidemsional Associative Array
+//Multidemsional Associative Array
 echo "<br>";
 $users = [
     [
